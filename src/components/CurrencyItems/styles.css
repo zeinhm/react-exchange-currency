@@ -1,0 +1,36 @@
+.currency-item {
+  border: 1px solid #999;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem 0;
+}
+
+.currency-item > div {
+  padding: 0 .5rem;
+  width: 100%;
+}
+
+.currency-item > div > header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.currency-item > div > p {
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.currency-item > div > p:nth-child(2) {
+  font-size: .865rem;
+  font-weight: bold;
+}
+
+.currency-item > div > p:nth-child(3) {
+  font-size: .865rem;
+}
+
+.currency-item > button {
+  border: none;
+  border-left: 1px solid #999;
+}

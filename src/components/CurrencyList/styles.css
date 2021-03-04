@@ -1,0 +1,46 @@
+.currency-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
+.currency-list > section {
+  border: 1px solid #999;
+  display: flex;
+  flex-direction: column;
+  min-width: 18rem;
+  min-height: 30rem;
+}
+
+.currency-list > section > header {
+  padding: 1rem 1rem 0;
+  border-bottom: 1px solid #999;
+}
+
+.currency-list > section > header > p {
+  font-size: .865rem;
+  font-style: italic;
+}
+
+.currency-list > section > header > div > p,
+.currency-list > section > header > div > input {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.currency-list > section > header > div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.currency-list > section > header > div > input {
+  width: 4rem;
+}
+
+.currency-list > section > header > div > input::-webkit-inner-spin-button,
+.currency-list > section > header > div > input::-webkit-outer-spin-button{
+  -webkit-appearance: none;
+  margin: 0
+}

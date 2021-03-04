@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/CurrencyItems render 1`] = `
+Array [
+  <div
+    className="currency-item"
+  >
+    <div>
+      <header>
+        <p>
+          test
+        </p>
+        <p />
+      </header>
+      <p />
+      <p>
+        1 USD = 
+        test
+         
+        100.00
+      </p>
+    </div>
+    <button
+      onClick={[Function]}
+    >
+      (-)
+    </button>
+  </div>,
+]
+`;

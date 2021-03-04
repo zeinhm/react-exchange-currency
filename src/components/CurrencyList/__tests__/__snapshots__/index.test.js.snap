@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/CurrencyList render 1`] = `
+<main
+  className="currency-list"
+>
+  <section>
+    <header>
+      <p>
+        USD - United States Dollars
+      </p>
+      <div>
+        <p>
+          USD
+        </p>
+        <input
+          onChange={[Function]}
+          type="number"
+          value={100}
+        />
+      </div>
+    </header>
+    <CurrencyItems
+      amount={100}
+      currencies={
+        Array [
+          Object {
+            "code": "test",
+            "rates": 100,
+          },
+        ]
+      }
+      deleteCurrency={[Function]}
+    />
+    <AddCurrency />
+  </section>
+</main>
+`;

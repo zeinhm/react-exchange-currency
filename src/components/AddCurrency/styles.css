@@ -1,0 +1,9 @@
+.add-currency {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.add-currency select {
+  width: 100%;
+}
